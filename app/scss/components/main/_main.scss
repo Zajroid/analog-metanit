@@ -1,0 +1,26 @@
+.main {
+    // background-color: rgb(225, 225, 255);
+    max-height: 100vh;
+
+    .main-row {
+        display: flex;
+        justify-content: space-between;
+        min-height: 100vh;
+
+        .main-left {
+            background-color: #1f1f1f;
+            min-width: 400px;
+        }
+
+        .main-center {
+            width: 100%;
+        }
+
+        .main-right {
+            background-color: #1f1f1f;
+            min-width: 400px;
+
+
+        }
+    }
+}
